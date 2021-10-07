@@ -4,8 +4,6 @@
 CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o: ../src/ValidPalindrome.cpp
 CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o: ../src/ValidPalindrome.h
 
-CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.o: ../src/helloWorld.cpp
-
 CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o: ../src/ValidPalindrome.h
 CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o: ../src/main.cpp
 

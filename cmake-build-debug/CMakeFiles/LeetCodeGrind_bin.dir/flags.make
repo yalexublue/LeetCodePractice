@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/yexu/Documents/GitHub/LeetCodePractice/src
+CXX_INCLUDES = -I/Users/yexu/Documents/Github/LeetCodePractice/src
 
 CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
 

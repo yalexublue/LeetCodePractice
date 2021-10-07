@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.19.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yexu/Documents/GitHub/LeetCodePractice
+CMAKE_SOURCE_DIR = /Users/yexu/Documents/Github/LeetCodePractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yexu/Documents/Github/LeetCodePractice/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LeetCodeGrind_bin.dir/depend.make
@@ -78,58 +78,43 @@ include CMakeFiles/LeetCodeGrind_bin.dir/flags.make
 
 CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o: CMakeFiles/LeetCodeGrind_bin.dir/flags.make
 CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o: ../src/ValidPalindrome.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o -c /Users/yexu/Documents/GitHub/LeetCodePractice/src/ValidPalindrome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yexu/Documents/Github/LeetCodePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o -c /Users/yexu/Documents/Github/LeetCodePractice/src/ValidPalindrome.cpp
 
 CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yexu/Documents/GitHub/LeetCodePractice/src/ValidPalindrome.cpp > CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yexu/Documents/Github/LeetCodePractice/src/ValidPalindrome.cpp > CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.i
 
 CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yexu/Documents/GitHub/LeetCodePractice/src/ValidPalindrome.cpp -o CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.s
-
-CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.o: CMakeFiles/LeetCodeGrind_bin.dir/flags.make
-CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.o: ../src/helloWorld.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.o -c /Users/yexu/Documents/GitHub/LeetCodePractice/src/helloWorld.cpp
-
-CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yexu/Documents/GitHub/LeetCodePractice/src/helloWorld.cpp > CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.i
-
-CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yexu/Documents/GitHub/LeetCodePractice/src/helloWorld.cpp -o CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yexu/Documents/Github/LeetCodePractice/src/ValidPalindrome.cpp -o CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.s
 
 CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o: CMakeFiles/LeetCodeGrind_bin.dir/flags.make
 CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o -c /Users/yexu/Documents/GitHub/LeetCodePractice/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yexu/Documents/Github/LeetCodePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o -c /Users/yexu/Documents/Github/LeetCodePractice/src/main.cpp
 
 CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yexu/Documents/GitHub/LeetCodePractice/src/main.cpp > CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yexu/Documents/Github/LeetCodePractice/src/main.cpp > CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.i
 
 CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yexu/Documents/GitHub/LeetCodePractice/src/main.cpp -o CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yexu/Documents/Github/LeetCodePractice/src/main.cpp -o CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.s
 
 # Object files for target LeetCodeGrind_bin
 LeetCodeGrind_bin_OBJECTS = \
 "CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o" \
-"CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.o" \
 "CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o"
 
 # External object files for target LeetCodeGrind_bin
 LeetCodeGrind_bin_EXTERNAL_OBJECTS =
 
 LeetCodeGrind_bin: CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o
-LeetCodeGrind_bin: CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.o
 LeetCodeGrind_bin: CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o
 LeetCodeGrind_bin: CMakeFiles/LeetCodeGrind_bin.dir/build.make
 LeetCodeGrind_bin: CMakeFiles/LeetCodeGrind_bin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LeetCodeGrind_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yexu/Documents/Github/LeetCodePractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LeetCodeGrind_bin"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LeetCodeGrind_bin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +127,6 @@ CMakeFiles/LeetCodeGrind_bin.dir/clean:
 .PHONY : CMakeFiles/LeetCodeGrind_bin.dir/clean
 
 CMakeFiles/LeetCodeGrind_bin.dir/depend:
-	cd /Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yexu/Documents/GitHub/LeetCodePractice /Users/yexu/Documents/GitHub/LeetCodePractice /Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug /Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug /Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug/CMakeFiles/LeetCodeGrind_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/yexu/Documents/Github/LeetCodePractice/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yexu/Documents/Github/LeetCodePractice /Users/yexu/Documents/Github/LeetCodePractice /Users/yexu/Documents/Github/LeetCodePractice/cmake-build-debug /Users/yexu/Documents/Github/LeetCodePractice/cmake-build-debug /Users/yexu/Documents/Github/LeetCodePractice/cmake-build-debug/CMakeFiles/LeetCodeGrind_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LeetCodeGrind_bin.dir/depend
 

@@ -10,7 +10,7 @@ bool validPalindrome(string s, int l, int r, int count){
         return true;
     }
 
-    cout << "l and r are: " << s[l] << s[r] << endl;
+    //cout << "l and r are: " << s[l] << s[r] << endl;
     while (l < r){
         if (s[l] == s[r]) {
             l += 1;
@@ -33,17 +33,15 @@ bool validPalindrome_YX(string s){
 bool validPalindrome_YW(string s){
     //Iterative
     //TODO: Yihan's code here
+    return true; /*comment me out*/
 }
 
 
 
 
-
-
-/*
-mapping failure,
-TODO: good lesson here, a failed algo always gonna suck
-bool validPalindrome(string s) {
+//mapping failure,
+//TODO: good lesson here, a failed algo always gonna suck
+bool validPalindrome_Failed(string s) {
     int c = 0;
     int letter[200];
     for (int i=0; i < 200; i++){
@@ -119,4 +117,4 @@ bool validPalindrome(string s) {
     }
     return true;
 }
- */
+ 

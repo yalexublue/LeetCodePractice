@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o"
-  "CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.o"
   "CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o"
   "LeetCodeGrind_bin"
   "LeetCodeGrind_bin.pdb"

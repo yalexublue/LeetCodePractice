@@ -3,6 +3,9 @@
 using namespace std;
 
 int main(){
-    string s = "ABCBA";
-    cout << validPalindrome_YX(s) << endl;
+    //validPalindrome check
+    string s = "BBCCCB";
+    cout << "test for valid palindrome\n"; 
+    cout << "YX result: " << validPalindrome_YX(s) << endl;
+    cout << "YW reuslt: " << validPalindrome_YW(s) << endl;
 }

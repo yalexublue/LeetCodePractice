@@ -4,9 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/yexu/Documents/GitHub/LeetCodePractice/src/ValidPalindrome.cpp" "/Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug/CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o"
-  "/Users/yexu/Documents/GitHub/LeetCodePractice/src/helloWorld.cpp" "/Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug/CMakeFiles/LeetCodeGrind_bin.dir/src/helloWorld.cpp.o"
-  "/Users/yexu/Documents/GitHub/LeetCodePractice/src/main.cpp" "/Users/yexu/Documents/GitHub/LeetCodePractice/cmake-build-debug/CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o"
+  "/Users/yexu/Documents/Github/LeetCodePractice/src/ValidPalindrome.cpp" "/Users/yexu/Documents/Github/LeetCodePractice/cmake-build-debug/CMakeFiles/LeetCodeGrind_bin.dir/src/ValidPalindrome.cpp.o"
+  "/Users/yexu/Documents/Github/LeetCodePractice/src/main.cpp" "/Users/yexu/Documents/Github/LeetCodePractice/cmake-build-debug/CMakeFiles/LeetCodeGrind_bin.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
