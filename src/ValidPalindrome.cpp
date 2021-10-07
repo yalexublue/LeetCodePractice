@@ -2,6 +2,44 @@
 #include <iostream>
 using namespace std;
 
+bool validPalindrome(string s, int l, int r, int count){
+    if (count == 2){
+        return false;
+    }
+    else if(l == r){
+        return true;
+    }
+
+    cout << "l and r are: " << s[l] << s[r] << endl;
+    while (l < r){
+        if (s[l] == s[r]) {
+            l += 1;
+            r -= 1;
+        }
+        else {
+            count += 1;
+            return validPalindrome(s, l + 1, r, count) ||
+                   validPalindrome(s, l, r - 1, count);
+        }
+    }
+    return true;
+
+}
+bool validPalindrome_YX(string s){
+    //Recursive
+    return validPalindrome(s, 0, s.size() - 1, 0);
+}
+
+bool validPalindrome_YW(string s){
+    //Iterative
+    //TODO: Yihan's code here
+}
+
+
+
+
+
+
 /*
 mapping failure,
 TODO: good lesson here, a failed algo always gonna suck
@@ -82,36 +120,3 @@ bool validPalindrome(string s) {
     return true;
 }
  */
-
-bool validPalindrome(string s, int l, int r, int count){
-    if (count == 2){
-        return false;
-    }
-    else if(l == r){
-        return true;
-    }
-
-    cout << "l and r are: " << s[l] << s[r] << endl;
-    while (l < r){
-        if (s[l] == s[r]) {
-            l += 1;
-            r -= 1;
-        }
-        else {
-            count += 1;
-            return validPalindrome(s, l + 1, r, count) ||
-                   validPalindrome(s, l, r - 1, count);
-        }
-    }
-    return true;
-
-}
-bool validPalindrome_YX(string s){
-    //Recursive
-    return validPalindrome(s, 0, s.size() - 1, 0);
-}
-
-bool validPalindrome_YW(string s){
-    //Iterative
-    //TODO: Yihan's code here
-}
