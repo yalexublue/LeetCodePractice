@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/yexu/Documents/Github/LeetCodePractice/src/ValidPalindrome.cpp
-ValidPalindrome.h
 /Users/yexu/Documents/Github/LeetCodePractice/src/ValidPalindrome.h
 iostream
 -
 
-/Users/yexu/Documents/Github/LeetCodePractice/src/ValidPalindrome.h
+/Users/yexu/Documents/Github/LeetCodePractice/src/main.cpp
 iostream
+-
+vector
+-
+ValidPalindrome.h
+/Users/yexu/Documents/Github/LeetCodePractice/src/ValidPalindrome.h
+list
 -
 
