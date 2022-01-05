@@ -4,6 +4,7 @@
 
 #include "Num_Islands.h"
 #include <iostream>
+#include <stack>
 
 //TODO: BFS solution, iterative
 int Num_Islands_Solutions::numIslandsBFS(vector<vector<char> >& grid){
@@ -54,6 +55,7 @@ int Num_Islands_Solutions::numIslandsBFS(vector<vector<char> >& grid){
 
 
 //TODO: DFS solution, recursive,
+//This structure is almost identical to the BFS structure, here just swap out the FIFO structure with a LIFO
 //Recursive DFS visit function(without time stamp)
 void Num_Islands_Solutions::DFSVisiting(vector<vector<char> >& grid, int row, int col){
     /*
@@ -105,11 +107,13 @@ int Num_Islands_Solutions::numIslandsDFS_iter(vector<vector<char> >& grid){
         for (int j = 0; j < height; j++){
             if (grid[i][j] == '1'){
                 islands_count++;
-                queue<pair<int, int> > island_bfs;
+                //here instead of the FIFO structure, using LIFO to achieve the same idea
+                //As there's a boundary set up, thus can prevent the DFS infinity loop
+                stack<pair<int, int> > island_bfs;
                 island_bfs.push(make_pair(i, j));
                 grid[i][j] = '0';
                 while(!island_bfs.empty()){
-                    auto temp = island_bfs.front();
+                    auto temp = island_bfs.top();
                     island_bfs.pop();
                     int x = temp.first;
                     int y = temp.second;
@@ -123,10 +127,7 @@ int Num_Islands_Solutions::numIslandsDFS_iter(vector<vector<char> >& grid){
                         island_bfs.push(make_pair(x, y + 1));
                         grid[x][y + 1] = '0';
                     }
-                    //back track seems not necessary, BUT
-                    //sometimes after vertical movement, we might
-                    //forget the x in front maybe 1, that's why this
-                    //back track is important
+
                     if (x - 1 >= 0 && grid[x - 1][y] == '1'){
                         island_bfs.push(make_pair(x - 1, y));
                         grid[x - 1][y] = '0';
