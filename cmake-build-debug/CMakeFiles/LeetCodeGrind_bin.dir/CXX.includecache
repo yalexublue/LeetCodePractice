@@ -6,17 +6,53 @@
 
 #IncludeRegexTransform: 
 
-/Users/yexu/Documents/Github/LeetCodePractice/src/ValidPalindrome.h
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/HashPractice.cpp
+HashPractice.h
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/HashPractice.h
+map
+-
+vector
+-
+
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/HashPractice.h
+map
+-
+
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/MyHashMap.h
+iostream
+-
+list
+-
+
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/Num_Islands.cpp
+Num_Islands.h
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/Num_Islands.h
+
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/Num_Islands.h
+vector
+-
+queue
+-
+
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/ValidPalindrome.h
 iostream
 -
 
-/Users/yexu/Documents/Github/LeetCodePractice/src/main.cpp
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/WkContest1.h
+iostream
+-
+
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/main.cpp
 iostream
 -
 vector
 -
 ValidPalindrome.h
-/Users/yexu/Documents/Github/LeetCodePractice/src/ValidPalindrome.h
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/ValidPalindrome.h
+MyHashMap.h
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/MyHashMap.h
+WkContest1.h
+/Users/yexu/Documents/GitHub/LeetCodePractice/src/WkContest1.h
 list
 -
 
